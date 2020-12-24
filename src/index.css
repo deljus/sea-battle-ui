@@ -1,0 +1,34 @@
+:root {
+  --background-color: #ffffff;
+  --secondary-background-color: #008CBA;
+  --hover-background-color: #f3f3f3;
+  --main-typography-color: rgba(20,27,36,0.7);
+
+  --border-input-color: #ccc;
+  --border-input-focus-color: #008CBA;
+
+  --border-color: #ebebeb;
+  --border-radius: 3px;
+
+  --primary-color:         #008CBA;
+  --secondary-color:       #9e9e9e;
+  --warning-color:         #ff9800;
+  --success-color:         #00bfa5;
+  --info-color:            #039be5;
+  --error-color: #fe5b5b;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: noto-sans, Arial, serif;
+  display: flex;
+}
+
+#root {
+  background: var(--background-color);
+  width: 100%;
+}

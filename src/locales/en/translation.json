@@ -1,0 +1,7 @@
+{
+  "loginPage": {
+    "description": "Create a game",
+    "generate": "Generate random name",
+    "submit": "Submit"
+  }
+}
